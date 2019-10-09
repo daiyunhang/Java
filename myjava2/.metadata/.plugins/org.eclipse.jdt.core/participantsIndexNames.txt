@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+F:\java\myjava2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1999596144.index
+\jt_manage\src
+F:\java\myjava2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2395973099.index
+\dd_14\src
+F:\java\myjava2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3111959998.index
+\dd_req_14\src
+F:\java\myjava2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1700605279.index
+\dd__14\src
