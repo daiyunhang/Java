@@ -1,0 +1,42 @@
+package dd_08_02_学生;
+
+public class Student {
+	/**
+	 * 成员变量，一般都设计成私有
+	 * 可以使用公开的方法，来控制变量的赋值及访问
+	 * 
+	 * 如果类中的成员变量非常多，为了同包调用方便，可以选择[default]
+	 * 如果希望子类集成这个变量，可以使用protected
+	 * */
+	
+	private int id;
+	private String name;
+	private String gender;
+	private int age;
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int gerId() {
+		return id;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int gerAge() {
+		return age;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String gerGender() {
+		return gender;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String gerName() {
+		return name;
+	}
+}
+

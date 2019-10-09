@@ -1,0 +1,13 @@
+package dd_11_01_丑数;
+
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		System.out.print("求第几个丑数");
+		int n = new Scanner(System.in).nextInt();
+		
+		long r = f(n);
+		System.out.println(r);
+	}
+}

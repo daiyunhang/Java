@@ -1,0 +1,21 @@
+package dd_14_04_线程;
+
+public class Test1 {
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	static class T1 extends Thread {
+		@Override
+		public void run() {
+			//获得线程名
+			String n = getName();
+			//打印1到100
+			for(int i=0;i<=100;i++) {
+				System.out.println(n + " - " + i);
+			}
+		}
+	}
+	
+}
